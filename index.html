@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Picker</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<!-- <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;800&display=swap" rel="stylesheet"> -->
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <div class="header-img">
+                <img src="./pumpkin.png" alt="Pumpkin image">
+            </div>
+            <div class="header-texts">
+                <h3>Pumpkin's Purrfect...</h3>
+                <h1>Meme Picker</h1>
+            </div>
+        </div>
+    </header>
+    <main>
+        <h2>Choose your current emotion...</h2>
+        <div class="wrapper" id="wrapper"></div>
+        <div class="gif-options" id="gif-options">
+            <label for="gif-only">GIFs only, please!</label>
+            <input type="checkbox" id="gif-only" value="gif-only" name="checkbox">
+        </div>
+        <button type="button" id="img-btn">Get Meme</button>
+    </main>
+
+    <div class="modal" id="modal"></div>
+    <script src="index.js" type="module"></script>
+</body>
+</html>
